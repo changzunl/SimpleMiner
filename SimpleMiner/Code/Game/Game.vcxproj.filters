@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneAttract.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenePlaying.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderUtils.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundClip.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMain.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDef.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockSetDefinition.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorUID.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AI.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorDefinition.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockMaterialDef.cpp">
+      <Filter>Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockIterator.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkProvider.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTestJobs.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneAttract.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ScenePlaying.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderUtils.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundClip.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.hpp">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDef.hpp">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockSetDefinition.hpp">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorUID.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorDefinition.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Faction.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Networking.hpp">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockMaterialDef.hpp">
+      <Filter>Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockIterator.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkProvider.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTestJobs.hpp">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4549382d-2fc8-42a3-a575-c9ba57c627e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{72391b83-addf-4dde-a368-25d70477951f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{934b4222-c776-4e86-a176-a01318c19ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{e7eb7d84-4c11-4c61-a3f6-194c23479ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{bbfaabc5-1647-484a-babb-9a6b6fa82be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Block">
+      <UniqueIdentifier>{7c2d00da-dc41-4f3a-9161-057b4cf1bf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{73204d09-d111-458f-bb8d-6aa7f6af3ed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\GameConfig.xml">
+      <Filter>Resources</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\BlockDefinitions.xml">
+      <Filter>Resources</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\World.hlsl">
+      <Filter>Resources</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\WorldPost.hlsl">
+      <Filter>Resources</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\Run\Data\Shaders\Fluid.hlsl">
+      <Filter>Resources</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

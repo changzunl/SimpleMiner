@@ -1,0 +1,14 @@
+<Definitions>
+  <!-- Marine -->
+  <ActorDefinition name="Player" faction="Player" health="100" canBePossessed="true" eyeHeight="1.5" corpseLifetime="2.0">
+    <Collision radius="0.3" height="1.8" collidesWithWorld="true" collidesWithActors="true"/>
+    <Physics simulated="true" walkSpeed="5.0" runSpeed="50.0" turnSpeed="180.0" drag="9.0"/>
+    <Camera cameraFOV="60.0"/>
+    <Appearance>
+    </Appearance>
+    <Sounds>
+      <Sound sound="Hurt" name="Data/Audio/PlayerHurt.wav"/>
+      <Sound sound="Death" name="Data/Audio/PlayerDeath1.wav"/>
+    </Sounds>
+  </ActorDefinition>
+</Definitions>

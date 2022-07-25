@@ -1,0 +1,13 @@
+<GameConfig
+    screenSizeX="1600"
+    screenSizeY="800"
+    windowTitle="SimpleMiner"
+    windowAspect="2"
+    consoleLines="40"
+    defaultMap="TestMap"
+	debugWorldNoTexture="false"
+	debugWorldNoShader="false"
+	debugWorldStepLighting="false"
+	chunkActivationRange="250"
+	worldSeed="114514"
+/>

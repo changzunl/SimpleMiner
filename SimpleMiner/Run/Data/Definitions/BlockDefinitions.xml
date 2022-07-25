@@ -1,0 +1,45 @@
+<BlockSetDefinitions>
+    <BlockSetDefinition name = "default">
+        <BlockMaterialAtlas shader = "World" texture = "Data/Images/BasicSprites_64x64.png" cellCount = "64,64" />
+        <BlockMaterials>
+            <BlockMaterial name = "Air" visible = "false" />
+            <BlockMaterial name = "Water"            cell = "32,44"  />
+            <BlockMaterial name = "GrassTop"         cell = "32,33"  />
+            <BlockMaterial name = "GrassSide"        cell = "33,33"  />
+            <BlockMaterial name = "LogSide"          cell = "36,33"  />
+            <BlockMaterial name = "LogTop"           cell = "38,33"  />
+            <BlockMaterial name = "Dirt"             cell = "32,34"  />
+            <BlockMaterial name = "Stone"            cell = "33,32"  />
+            <BlockMaterial name = "Bedrock"          cell = "37,32"  />
+            <BlockMaterial name = "CoalOre"          cell = "63,34"  />
+            <BlockMaterial name = "IronOre"          cell = "63,35"  />
+            <BlockMaterial name = "GoldOre"          cell = "63,36"  />
+            <BlockMaterial name = "DiamondOre"       cell = "63,37"  />
+            <BlockMaterial name = "CobbleStone"      cell = "35,32"  />
+            <BlockMaterial name = "RedBrick"         cell = "57,32"  />
+            <BlockMaterial name = "GlowStone"        cell = "46,34"  />
+            <BlockMaterial name = "Sand"             cell = "34,34"  />
+            <BlockMaterial name = "Leaves"           cell = "32,35"  />
+            <BlockMaterial name = "Ice"              cell = "36,35"  />
+        </BlockMaterials>
+        <Blocks>
+            <Block name = "Air"            solid = "false" opaque = "false" material = "Air"        />
+            <Block name = "Dirt"           solid = "true"  opaque = "true"  material = "Dirt"       />
+            <Block name = "Stone"          solid = "true"  opaque = "true"  material = "Stone"      />
+            <Block name = "Bedrock"        solid = "true"  opaque = "true"  material = "Bedrock"    />
+            <Block name = "CoalOre"        solid = "true"  opaque = "true"  material = "CoalOre"    />
+            <Block name = "IronOre"        solid = "true"  opaque = "true"  material = "IronOre"    />
+            <Block name = "GoldOre"        solid = "true"  opaque = "true"  material = "GoldOre"    />
+            <Block name = "DiamondOre"     solid = "true"  opaque = "true"  material = "DiamondOre" />
+            <Block name = "Grass"          solid = "true"  opaque = "true"  materialType = "seperate3" materialTop = "GrassTop" materialSide = "GrassSide" materialBottom = "Dirt" />
+            <Block name = "Water"          solid = "false" opaque = "false" material = "Water" />
+            <Block name = "CobbleStone"    solid = "true"  opaque = "true"  material = "CobbleStone" />
+            <Block name = "RedBrick"       solid = "true"  opaque = "true"  material = "RedBrick" />
+            <Block name = "Log"            solid = "true"  opaque = "true"  materialType = "seperate3" materialTop = "LogTop" materialSide = "LogSide" materialBottom = "LogTop" />
+            <Block name = "GlowStone"      solid = "true"  opaque = "true"  material = "GlowStone" />
+            <Block name = "Sand"           solid = "true"  opaque = "true"  material = "Sand"      />
+            <Block name = "Leaves"         solid = "true"  opaque = "true"  material = "Leaves"    />
+            <Block name = "Ice"            solid = "true"  opaque = "true"  material = "Ice"       />
+        </Blocks>
+    </BlockSetDefinition>
+</BlockSetDefinitions>
